@@ -1,0 +1,33 @@
+POST http://localhost:8000/products
+accept: application/json
+content-type: application/json
+
+{
+    "name":"Watermelon",
+    "price":7,
+    "quantity":200
+}
+
+<> 2022-06-09T164619.200.json
+<> 2022-06-09T164539.422.json
+
+###
+
+GET http://localhost:8000/products
+accept: application/json
+
+<> 2022-06-09T165133.200.json
+<> 2022-06-09T165117.200.json
+<> 2022-06-09T164644.200.json
+
+
+###
+GET http://localhost:8000/products/01G54ETGV6DP1X2N2DZAPYPYEX
+
+<> 2022-06-09T164844.200.json
+
+###
+
+DELETE http://localhost:8000/products/01G556XGHACFNXNA0MSJ1RQY8S
+
+<> 2022-06-09T165104.200.json

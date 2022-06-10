@@ -1,0 +1,16 @@
+# Test your FastAPI endpoints
+
+POST http://127.0.0.1:8001/orders
+content-type: application/json
+
+{
+  "id": "01G556XGHACFNXNA0MSJ1RQY8S",
+  "quantity": 8
+}
+
+###
+
+GET http://127.0.0.1:8001/orders/01G556XYGD79S5RM8X87V35DCH
+Accept: application/json
+
+###
