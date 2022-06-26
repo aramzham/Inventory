@@ -19,4 +19,4 @@ Technologies used:
   <li>Frontend: ReactJS :atom_symbol:</li>
 </ul>
 
-[^1]: <a href="https://www.youtube.com/watch?v=Cy9fAvsXGZA&t=1s">link</a> to the tutarial
+[^1]: <a href="https://www.youtube.com/watch?v=Cy9fAvsXGZA">link</a> to the tutarial
